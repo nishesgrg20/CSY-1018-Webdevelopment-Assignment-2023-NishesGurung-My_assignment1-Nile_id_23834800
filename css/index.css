@@ -81,7 +81,9 @@ nav .container1 ul li a:hover{background-color: aliceblue;color: rgba(0, 0, 0, 0
 
 .box_left1 h1{font-size: 36px;}
 .box_left1 p{padding: 12px 0px;line-height: 1.9rem;font-size: 18px;}
-
-
+.box_left1 span{margin: 10px;}
+.box_left1 div{padding: 25px;}
+.box_left1 div a{background-color:forestgreen;padding: 15px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
+.box_left1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
 
 
