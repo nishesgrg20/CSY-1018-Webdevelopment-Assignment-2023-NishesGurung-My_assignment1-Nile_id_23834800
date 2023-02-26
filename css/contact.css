@@ -1,0 +1,12 @@
+form{
+    display: grid;grid-template-columns:300px 300px;grid-template-rows: 50px 50px 50px ;
+    grid-gap: 20px;width: 630px;margin: 60px auto;
+}
+form input{padding: 15px 5px;border-radius: 5px;border: none;}
+form textarea{padding: 15px 5px;border-radius: 5px;border: none;}
+.contact{height: 450px;background-color:#f5f5f5;}
+.contact h1{padding-top: 20px;font-size: 30px;font-weight: 800;padding-bottom: 5px;
+width: 250px;margin: auto;}
+form span{margin-top: 12px;}
+form span button{padding: 10px 15px;background-color: green;border: none;color: white;border-radius:5px;transition: 0.7s;}
+form span button:hover{background-color: black;color: white;transition: 0.7s;}

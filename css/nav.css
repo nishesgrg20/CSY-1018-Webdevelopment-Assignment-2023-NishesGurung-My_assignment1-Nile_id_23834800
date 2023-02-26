@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/***************************************************************************/
+body {
+   
+    background-color: white;font-family: sans-serif;
+}
+
+.container1 {
+    width: 1200px;
+    margin: auto;text-align: center;
+}
+/************************** Head part Css *************************************************/
+
+.head_top .head_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_top{
+
+    color: black;
+    padding: 1.9rem;
+    /* box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.7); */
+}
+
+.head_parent h2 {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 0px 13px;
+    transition: 0.8s;
+}
+
+.head_parent h2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white ;
+    transition: 0.8s;
+}
+
+.head_parent h4 {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 0px 13px;
+    transition: 0.8s;background-color: rgba(0, 0, 0, 0.8);color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.head_parent h4:hover {
+    background-color:white;
+    color:rgba(0, 0, 0, 0.8);
+    transition: 0.8s;
+}
+nav{
+   background-color: #06050A;width: 100%;
+   
+}
+nav .container1 ul{width: 730px;margin: auto;padding: 20px 0px;}
+nav .container1 ul li{display: inline-block;margin-left: 45px;}
+nav .container1 ul li a{color: aliceblue;background-color:rgba(0, 0, 0, 0.8) ;padding:0.5rem;border-radius: 0px 10px;transition: 0.7s;text-decoration: none;}
+nav .container1 ul li a:hover{background-color: aliceblue;color: rgba(0, 0, 0, 0.8) ;transition: 0.8s;}

@@ -1,89 +1,13 @@
- /* ALL elements setting padding & margin as 0px as removing gap from allside */
- * {
-    padding: 0px;
-    margin: 0px;
-}
-/***************************************************************************/
-body {
-   
-    background-color: #06050A;font-family: sans-serif;
-}
 
-.container1 {
-    width: 1200px;
-    margin: auto;
-}
+.portfolio{background-color: #06050A;}
+.container3_row{display: grid;grid-template-columns: 700px 500px;grid-template-rows: 600px;width: 1200px;margin: auto;background-color: #06050A;}
+.left_column{width: 600px;height: 600px;}
+.left_column .left_box1{margin: 200px 0px;text-align: center;color: white;}
+.left_column .left_box1 p{padding:20px 0px;line-height: 30px;}
+.right_column .right_box1 {width: 520px;margin:50px auto;}
+.right_column .right_box1 img{width: 430px;height: 450px;border-radius: 400px;}
+.left_box1 div{padding: 5px 0px;}
+.left_box1 div a{background-color:forestgreen;padding: 12px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
+.left_box1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
 /************************** Head part Css *************************************************/
-
-.head_top .head_parent {
-    display: flex;
-    justify-content: space-between;
-}
-
-.head_top{
-
-    color: black;
-    padding: 1.9rem;
-}
-
-.head_parent h2 {
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 0px 13px;
-    transition: 0.8s;
-}
-.head_parent div h2{color: black;background-color: white;}
-
-.head_parent h2:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color:white ;
-    transition: 0.8s;
-}
-
-.head_parent h4 {
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 0px 13px;
-    transition: 0.8s;background-color: rgba(0, 0, 0, 0.8);color: white;
-    border: 2px solid rgba(0, 0, 0, 0.8);
-}
-
-.head_parent h4:hover {
-    background-color:white;
-    color:rgba(0, 0, 0, 0.8);
-    transition: 0.8s;
-}
-nav{
-   background-color: #06050A;width: 100%;
-   
-}
-nav .container1 ul{width: 730px;margin: auto;padding: 20px 0px;}
-nav .container1 ul li{display: inline-block;margin-left: 45px;}
-nav .container1 ul li a{color: aliceblue;background-color:rgba(0, 0, 0, 0.8) ;padding:0.5rem;border-radius: 0px 10px;transition: 0.7s;text-decoration: none;}
-nav .container1 ul li a:hover{background-color: aliceblue;color: rgba(0, 0, 0, 0.8) ;transition: 0.8s;}
-
-/***********************************/
-
-.wrapper_main{width: 1200px;margin: auto;}
-.details_home{padding: 30px 0px;}
-.lh{line-height: 32px;}
-.details_home p{padding: 20px 0px;}
-
-.myhome_details{height: 80vh;display: flex;justify-content: space-between;}
-.banner_left{width: 890px;
-    height: 671px;
-    background: #06050A;}
-.banner_left .box_left1{color: white;    width: 600px;
-    margin: 150px auto;
-    text-align: center;
-    height: auto;}
-.banner_right img {width: 820px;height: 671px;}
-
-.box_left1 h1{font-size: 36px;}
-.box_left1 p{padding: 12px 0px;line-height: 1.9rem;font-size: 18px;}
-.box_left1 span{margin: 10px;}
-.box_left1 div{padding: 25px;}
-.box_left1 div a{background-color:forestgreen;padding: 15px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
-.box_left1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
-
 

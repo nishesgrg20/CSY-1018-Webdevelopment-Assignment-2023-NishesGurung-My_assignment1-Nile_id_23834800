@@ -1,93 +1,3 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-/***************************************************************************/
-body {
-
-    background-color: white;
-    font-family: sans-serif;
-}
-
-
-/************************** Head part Css *************************************************/
-
-.head_top .head_parent {
-    display: flex;
-    justify-content: space-between;
-}
-
-.head_top {
-
-    color: black;
-    padding: 1.9rem;
-    /* box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.7); */
-}
-
-.head_parent h2 {
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 0px 13px;
-    transition: 0.8s;
-}
-
-.head_parent h2:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    transition: 0.8s;
-}
-
-.head_parent h4 {
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 0px 13px;
-    transition: 0.8s;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
-.head_parent h4:hover {
-    background-color: white;
-    color: rgba(0, 0, 0, 0.8);
-    transition: 0.8s;
-}
-
-nav {
-    background-color: #06050A;
-    width: 100%;
-
-}
-
-nav .container1 ul {
-    width: 730px;
-    margin: auto;
-    padding: 20px 0px;
-}
-
-nav .container1 ul li {
-    display: inline-block;
-    margin-left: 45px;
-}
-
-nav .container1 ul li a {
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 0.5rem;
-    border-radius: 0px 10px;
-    transition: 0.7s;
-    text-decoration: none;
-}
-
-nav .container1 ul li a:hover {
-    background-color: aliceblue;
-    color: rgba(0, 0, 0, 0.8);
-    transition: 0.8s;
-}
-
-/*****************************/
-
 .container1 {
     width: 1200px;
     margin: auto;
@@ -103,8 +13,9 @@ nav .container1 ul li a:hover {
 .experience .box1 {
     padding: 20px 0px;
 }
-.box1 h2{padding: 5px 0px;font-size: 30px;font-weight: 750;border-bottom: 1px solid black;width: 300px;margin:10px auto;}
-.parent_skills{padding: 60px 0px;display: flex;justify-content: space-evenly;}
+.box1 h2{padding: 5px 0px;font-size: 30px;font-weight: 750;width: 300px;margin:10px auto;}
+.parent_skills{padding: 60px 0px;display: grid;grid-template-columns: 400px 400px 400px;grid-template-rows:278px ;grid-column-gap: 12px;
+width: 1150px;margin: auto;}
 
 
 /* CARD */
@@ -113,7 +24,7 @@ nav .container1 ul li a:hover {
     width: 330px;
     height: auto;
     box-shadow: 3px 5px #aaaaaa;
-    border-radius: 50px 50px 0 0;
+    border-radius: 50px  0 50px;
     background-color: #06050A;overflow: hidden;transition: 0.8s;
 }
 
@@ -135,9 +46,3 @@ nav .container1 ul li a:hover {
 .card1:hover h4{color: #06050A;transition: 0.8s;}
 
 
-
-
-/******** FOOTER SKILLS *************/
-footer{background-color: #06050A ;color: white;padding:73px;border-radius: 50px;}
-.footer_parent{display: flex;justify-content: space-between;}
-/**********************************************/

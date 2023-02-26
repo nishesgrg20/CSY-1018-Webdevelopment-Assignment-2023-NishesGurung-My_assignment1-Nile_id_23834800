@@ -1,0 +1,13 @@
+
+
+.container1 {
+    width: 1200px;
+    margin: auto;
+}
+
+
+.report_main{background-color:#f5f5f5;width: 100%;height:auto;}
+.report_main h1{padding: 10px 0px;}
+.report_main .box1{text-align: center;padding: 20px 0px;}
+.report_parent{display: grid;grid-template-columns: 900px;grid-template-rows: 600px;margin: auto;width: 900px;}
+.report_detail{background-color:white;border-radius: 30px;color: #06050A;}
