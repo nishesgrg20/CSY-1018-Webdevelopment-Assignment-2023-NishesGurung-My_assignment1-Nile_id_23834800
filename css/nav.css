@@ -15,10 +15,12 @@ body {
 /************************** Head part Css *************************************************/
 
 .head_top .head_parent {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 40px;
 }
-
+.head_parent .head_left{text-align: left;width: 200px;padding: 4px;}
+.head_parent .head_right{width: 200px;margin-left: auto;}
 .head_top{
 
     color: black;

@@ -22,7 +22,8 @@
     padding-left: 15px;transition:0.5s;}
 .aboutme h1:hover::before{height: 29px;transition: 0.5s;}
 .aboutme p{line-height: 40px;}
- .myimage img{width: 590px;height: 400px;border-radius: 10px;padding:30px 10px}
+.myimage {text-align: right;}
+ .myimage img{width: 400px;height: 300px;border-radius: 10px;padding:30px 10px;border-radius: 10px;}
  .here{font-size: 25px;font-weight:550;}
  .pdefine{padding: 20px 0px;}
 
