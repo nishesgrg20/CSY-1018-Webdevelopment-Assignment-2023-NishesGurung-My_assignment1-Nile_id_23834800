@@ -9,7 +9,7 @@
  
  
  /**********PORTFOLIO DETAIL CSS*************/
- .portfolio_details{width:auto;height: auto;background-color:#06050A;padding:20px; color: white;}
+ .portfolio_details{width:auto;height: auto;background-color:#06050A;padding:50px; color: white;}
  .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: 700px;}
 
  .aboutme h1{padding: 10px 0px;font-weight: 800;;width: 525px;text-align: center;}
@@ -23,7 +23,7 @@
 .aboutme h1:hover::before{height: 29px;transition: 0.5s;}
 .aboutme p{line-height: 40px;}
 .myimage {text-align: right;}
- .myimage img{width: 400px;height: 300px;border-radius: 10px;padding:30px 10px;border-radius: 10px;}
+ .myimage img{width: 400px;height: 300px;padding:30px 10px;border-radius: 20px;}
  .here{font-size: 25px;font-weight:550;}
  .pdefine{padding: 20px 0px;}
 

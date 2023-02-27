@@ -13,7 +13,7 @@
 .experience .box1 {
     padding: 20px 0px;
 }
-.box1 h2{padding: 5px 0px;font-size: 30px;font-weight: 750;width: 300px;margin:10px auto;}
+.box1 h2{padding: 5px 0px;font-size: 30px;font-weight: 750;width: 330px;margin:10px auto;}
 .parent_skills{padding: 60px 0px;display: grid;grid-template-columns: 400px 400px 400px;grid-template-rows:278px ;grid-column-gap: 12px;
 width: 1150px;margin: auto;}
 

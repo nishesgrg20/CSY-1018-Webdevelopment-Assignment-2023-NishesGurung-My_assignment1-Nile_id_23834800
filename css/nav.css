@@ -19,7 +19,7 @@ body {
     grid-template-columns: 600px 600px;
     grid-template-rows: 40px;
 }
-.head_parent .head_left{text-align: left;width: 200px;padding: 4px;}
+.head_parent .head_left{text-align: left;width: 205px;padding: 4px;}
 .head_parent .head_right{width: 200px;margin-left: auto;}
 .head_top{
 

@@ -1,11 +1,12 @@
 
 .portfolio{background-color: #06050A;}
-.container3_row{display: grid;grid-template-columns: 700px 500px;grid-template-rows: 600px;width: 1200px;margin: auto;background-color: #06050A;}
-.left_column{width: 600px;height: 600px;}
-.left_column .left_box1{margin: 200px 0px;text-align: center;color: white;}
-.left_column .left_box1 p{padding:20px 0px;line-height: 30px;}
-.right_column .right_box1 {width: 520px;margin:50px auto;}
-.right_column .right_box1 img{width: 430px;height: 450px;border-radius: 400px;}
-.left_box1 div{padding: 5px 0px;}
-.left_box1 div a{background-color:forestgreen;padding: 12px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
-.left_box1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
+.container3_row{display: grid;grid-template-columns:600px 500px;grid-template-rows: 600px;width: 1200px;margin: auto;background-color: #06050A;}
+.right_column{width: 600px;height: 600px;}
+.right_column .right_box1{margin: 180px 0px;text-align: center;color: white;}
+.right_column .right_box1 p{padding:20px 0px;line-height: 30px;}
+.left_column .left_box1 {width: 520px;margin:90px auto;}
+.left_column .left_box1 img{width: 370px;height:360px;border-radius:20px;transition: 1s;transform: scale(0.9);}
+.left_column .left_box1 img:hover{border-radius: 300px;transition: 1s;transform: scale(1.1);}
+.right_box1 div{padding: 5px 0px;}
+.right_box1 div a{background-color:forestgreen;padding: 12px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
+.right_box1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
