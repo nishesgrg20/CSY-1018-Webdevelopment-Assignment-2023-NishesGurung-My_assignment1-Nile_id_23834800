@@ -20,16 +20,16 @@ body {
     grid-template-rows: 40px;
 }
 .head_parent .head_left{text-align: left;width: 205px;padding: 4px;}
-.head_parent .head_right{width: 200px;margin-left: auto;}
+.head_parent .head_right{margin-left: auto;}
 .head_top{
-
+    background-color: white;
     color: black;
     padding: 1.9rem;
     /* box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.7); */
 }
 
 .head_parent h2 {
-    font-size: 25px;
+ 
     padding: 5px;
     border-radius: 0px 13px;
     transition: 0.8s;
@@ -42,8 +42,8 @@ body {
 }
 
 .head_parent h4 {
-    font-size: 25px;
-    padding: 5px;
+
+    padding: 11px;
     border-radius: 0px 13px;
     transition: 0.8s;background-color: rgba(0, 0, 0, 0.8);color: white;
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -62,3 +62,16 @@ nav .container1 ul{width: 730px;margin: auto;padding: 20px 0px;}
 nav .container1 ul li{display: inline-block;margin-left: 45px;}
 nav .container1 ul li a{color: aliceblue;background-color:rgba(0, 0, 0, 0.8) ;padding:0.5rem;border-radius: 0px 10px;transition: 0.7s;text-decoration: none;}
 nav .container1 ul li a:hover{background-color: aliceblue;color: rgba(0, 0, 0, 0.8) ;transition: 0.8s;}
+
+@media(max-width:950px){
+    .head_top .container1 .head_parent{grid-template-columns: 245px 80px}
+    .head_parent .head_right{display: none;}
+    .head_left h1{font-size: 20px;}
+    .head_right h4{  font-size: 20px;
+        width: 150px;}
+    nav{display: none;}
+  
+}
+@media screen and (min-width:550px) and (max-width:1300px){
+    .head_top .container1 .head_parent{grid-template-columns: 600px 80px;}
+}

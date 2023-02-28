@@ -1,4 +1,4 @@
-
+body{background-color: #06050A;}
 .portfolio{background-color: #06050A;}
 .container3_row{display: grid;grid-template-columns:600px 500px;grid-template-rows: 600px;width: 1200px;margin: auto;background-color: #06050A;}
 .right_column{width: 600px;height: 600px;}
@@ -10,3 +10,28 @@
 .right_box1 div{padding: 5px 0px;}
 .right_box1 div a{background-color:forestgreen;padding: 12px;color: white;text-decoration: none;border-radius: 8px;transition: 0.5s;}
 .right_box1 div a:hover{background-color: white;color: forestgreen;transition: 0.5s;}
+
+.ham_b{display: none;width: 25px;
+    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
+.ham_b .ham_b1{width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0px;}
+/* RESPONSIVE CODE For index.html here */
+@media (max-width:950px){
+    .portfolio{padding: 10px 0px;}
+    
+    .container1{width: auto;}
+    .container3_row {
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        width: auto;}
+        .right_column{padding: 10px;}
+        .left_column .left_box1{margin: 10px 0px;text-align: center;width: auto;}
+        .left_column .left_box1 img{width: 300px;height: 270px;}
+        .left_column .left_box1 img:hover{transform: scale(1);}
+        .right_column{width: auto;height: auto;}
+        .right_column .right_box1{margin: auto;padding: 10px;}
+        .ham_b{display: block;}
+}

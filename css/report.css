@@ -6,9 +6,26 @@
 }
 
 
-.report_main{background-color:#f5f5f5;width: 100%;height:auto;}
+.report_main{background-color:#f5f5f5;width: 100%;height:900px;}
 .report_main h1{padding: 25px 0px;}
 .report_main .box1{text-align: center;padding: 20px 0px;}
-.report_parent{display: grid;grid-template-columns: 900px;grid-template-rows: 600px;margin: auto;width: 900px;}
+.report_parent{display: grid;grid-template-columns: 900px;grid-template-rows: 760px;margin: auto;width: 900px;}
 .report_body{background-color:white;border-radius: 30px;color: #06050A;padding: 40px 20px;margin: 20px 0px;}
 .report_body p{line-height:30px;}
+
+.ham_b{display: none;width: 25px;
+    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
+ .ham_b .ham_b1{width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0px;}
+
+
+    @media (max-width:950px){
+        .ham_b{display: block;}
+        .container1{width: auto;}
+        .report_parent{grid-template-columns: auto;grid-template-rows: auto;width: auto;}
+        .report_body{margin: 0px;}
+        .report_body p{font-size: 15px;line-height: 25px;}
+        .report_main{height: auto;}
+    }
