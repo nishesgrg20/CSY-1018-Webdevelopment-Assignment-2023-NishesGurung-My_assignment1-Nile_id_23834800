@@ -19,6 +19,9 @@ body {
     grid-template-columns: 600px 600px;
     grid-template-rows: 40px;
 }
+.head_left img{height: 200px;
+    width: 150px;
+    margin: -20px 42px;}
 .head_parent .head_left{text-align: left;width: 205px;padding: 4px;}
 .head_parent .head_right{margin-left: auto;}
 .head_top{
@@ -46,11 +49,11 @@ body {
     padding: 11px;
     border-radius: 0px 13px;
     transition: 0.8s;background-color: rgba(0, 0, 0, 0.8);color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    
 }
 
 .head_parent h4:hover {
-    background-color:white;
+    background-color:skyblue;
     color:rgba(0, 0, 0, 0.8);
     transition: 0.8s;
 }

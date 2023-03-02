@@ -8,14 +8,15 @@ body{background-color:#f5f5f5;;}
 .experience {
     background-color: #f5f5f5;
     width: 100%;
-    height: auto;
+    height:100vh;
 }
 
 .experience .box1 {
-    padding: 20px 0px;
+    padding: 50px 0px;height: 100vh;
 }
+
 .box1 h2{padding: 5px 0px;font-size: 30px;font-weight: 750;width: 330px;margin:10px auto;}
-.parent_skills{padding: 60px 0px;display: grid;grid-template-columns: 400px 400px 400px;grid-template-rows:278px ;grid-column-gap: 12px;
+.parent_skills{padding: 90px 0px;display: grid;grid-template-columns: 400px 400px 400px;grid-template-rows:278px ;grid-column-gap: 12px;
 width: 1150px;margin: auto;}
 
 
@@ -23,17 +24,17 @@ width: 1150px;margin: auto;}
 .card_container{width:200px;margin: auto;}
 .parent_skills .card1 {
     width: 330px;
-    height: auto;
-    box-shadow: 3px 5px #aaaaaa;
-    border-radius: 50px  0 50px;
+    height: 330px;
+    box-shadow: 3px 5px #aaaaaa;    
+    border-radius: 120px 120px 2700px 2700px;    /* 50px top left,0px top right/ 50px bottom right,10px bottom left */
     background-color: #06050A;overflow: hidden;transition: 0.8s;
 }
 
 .job_details {
-    width: 350px;
-    height: 160px;
+    width: auto;
+    height: 212px;
     background: white;
-    margin:0px auto;padding: 30px 0px;transition: 0.8s;
+    margin:0px auto;padding: 50px 50px;transition: 0.8s;
 
 }
 

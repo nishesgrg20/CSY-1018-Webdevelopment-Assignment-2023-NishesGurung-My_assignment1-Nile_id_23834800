@@ -10,8 +10,8 @@
  
  
  /**********PORTFOLIO DETAIL CSS*************/
- .portfolio_details{width:auto;height: auto;background-color:#06050A;padding:50px; color: white;}
- .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: 700px;}
+ .portfolio_details{width:auto;height:auto;background-color:#06050A;padding:50px; color: white;}
+ .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: 400px 310px;height:auto;}
 
  .aboutme h1{padding: 10px 0px;font-weight: 800;;width: 525px;text-align: center;}
  .aboutme h1::before{ content: '';
@@ -24,27 +24,31 @@
 .aboutme h1:hover::before{height: 29px;transition: 0.5s;}
 .aboutme p{line-height: 40px;}
 .myimage {text-align: right;}
- .myimage img{width: 400px;height: 300px;padding:30px 10px;border-radius: 20px;}
+ .myimage img{width: 400px;height: 300px;padding:30px 10px;border-radius: 70px 0px;}
  .here{font-size: 25px;font-weight:550;}
  .pdefine{padding: 20px 0px;}
- 
+ .myimage_bottomright{text-align: right;}
+ .myimage_bottomright img{width: 400px;height: 300px;transition: 0.8s;border-radius:60px 0px;opacity: 0.2;transform: scale(0.8);}
+ .myimage_bottomright img:hover{transform: scale(1);transition: 0.8s;opacity: 1.5;}
 .ham_b{display: none;width: 25px;
     margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
  .ham_b .ham_b1{width: 25px;
     height: 3px;
     background-color: white;
     margin: 4px 0px;}
+
 /**********************/
 
 
 
 /*********** SKILLS CSS *************/
 .skills_head h2{text-align: center;width: 300px;margin: auto;}
-.skills{width: 360px;background-color:rgba(0, 0, 0, 0.8) ;margin: 20px 120px;display: flex;padding: 30px;border-radius: 30px;color: #f5f5f5;
-transition: 0.9s;}
+.skills{width: 360px;background-color:rgba(0, 0, 0, 0.8) ;margin: 20px auto;display: flex;padding: 50px 0px;border-radius: 30px;color: #f5f5f5;
+transition: 0.9s;justify-content: space-evenly;}
 .skills:hover{transition: 0.9s;transform: scale(1.1);background-color: white;color: rgba(0, 0, 0, 0.8);box-shadow:4px 6px rgba(0, 0, 0,1);}
-.skillsname{margin-left: 90px;padding-left: 10px;}
-.skillsrange{margin-left: 50px}
+
+.skillsname p{padding: 10px 0px;}
+.skillsrange p{padding: 10px 0px;}
 /**********************************************/
 
 @media (max-width:950px){
@@ -52,9 +56,10 @@ transition: 0.9s;}
     .portfolio_details{padding: 0px;}
     .portfolio_parent{grid-template-columns: auto;grid-template-rows:auto;font-size: 15px;}
     .container1{width: auto;text-align: left;}
+    .aboutme{padding: 30px 0px;}
     .aboutme h1{width: auto;}
     .aboutme p{line-height: 25px;}
-    .skills{margin: 0px;width: auto;}
+    .skills{margin: 30px 0px;width: auto;padding: 10px 0px;}
     .skillsname{margin: 0px;}
     .myimage{text-align: center;}
     .myimage img{width: 350px;height: 200px;}
