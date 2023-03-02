@@ -3,14 +3,14 @@
      width: 1200px;
      margin: auto;
  }
- body{background-color: #06050A;}
+ body{background-color: #000000}
 /************************** Head part Css *************************************************/
  
 
  
  
  /**********PORTFOLIO DETAIL CSS*************/
- .portfolio_details{width:auto;height:auto;background-color:#06050A;padding:50px; color: white;}
+ .portfolio_details{width:auto;height:auto;background-color:#000000;padding:50px; color: white;}
  .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: 400px 310px;height:auto;}
 
  .aboutme h1{padding: 10px 0px;font-weight: 800;;width: 525px;text-align: center;}
@@ -19,7 +19,7 @@
     height: 0px;
     display: inline-block;
     /* border-bottom: 1px solid black; */
-    border-left: 2px solid black;
+    border-left: 2px solid #000000;
     padding-left: 15px;transition:0.5s;}
 .aboutme h1:hover::before{height: 29px;transition: 0.5s;}
 .aboutme p{line-height: 40px;}
@@ -31,7 +31,7 @@
  .myimage_bottomright img{width: 400px;height: 300px;transition: 0.8s;border-radius:60px 0px;opacity: 0.2;transform: scale(0.8);}
  .myimage_bottomright img:hover{transform: scale(1);transition: 0.8s;opacity: 1.5;}
 .ham_b{display: none;width: 25px;
-    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
+    margin:0px auto;background-color: #000000;height: 25px;padding: 8px;border-radius: 5px;}
  .ham_b .ham_b1{width: 25px;
     height: 3px;
     background-color: white;

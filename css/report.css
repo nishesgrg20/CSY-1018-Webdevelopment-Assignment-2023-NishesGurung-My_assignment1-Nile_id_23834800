@@ -6,8 +6,8 @@
 }
 
 
-.report_main{width: 100%;height:900px;background-image: url(../images/bg.avif);background-repeat: no-repeat;
-    background-attachment:fixed;background-color: #000000;background-position: -40px 0px;}     
+.report_main{width: 100%;height:900px;background-image: url('../images/reportjp.jpg');background-repeat: no-repeat;
+    background-attachment:fixed;background-color: #000000;background-position: -30px 0px;}     
     /* The images is taken from unsplash url:https://unsplash.com/photos/oga9Xg0KVnU */
 
 .report_main h1{padding: 25px 0px;color: white;}
@@ -32,5 +32,5 @@ background-repeat: no-repeat;color: white
         .report_parent{grid-template-columns: auto;grid-template-rows: auto;width: auto;}
         .report_body{margin: 0px;}
         .report_body p{font-size: 15px;line-height: 25px;}
-        .report_main{height: auto;}
+        .report_main{height: auto;background-position:-325px -100px ;}
     }
