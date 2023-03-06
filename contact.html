@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,57 +10,99 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
+
+
     <div class="head_top">
+
         <div class="container1">
-            <div class="head_parent">  <!-- Parent root implementing flex in head part -->
-                <div class="head_left">                   <!--FIRST COLUMN ELEMENT WILL MOVE IN lEFT SIDE-->
+            <div class="head_parent">
+                <!-- Parent root implementing flex in head part -->
+                <div class="head_left">
+                    <!--FIRST COLUMN ELEMENT WILL MOVE IN lEFT SIDE-->
                     <img src="images/toplogo.png">
 
                 </div>
-                <div class="head_right">                    <!--FIRST COLUMN ELEMENT WILL MOVE IN  RIGHT SIDE-->
+                <div class="head_right">
+                    <!--FIRST COLUMN ELEMENT WILL MOVE IN  RIGHT SIDE-->
                     <h4>GOODLUCK</h4>
                 </div>
-                <div class="ham_b">
-                    <div class="ham_b1"></div>
-                    <div class="ham_b1"></div>
-                    <div class="ham_b1"></div>
+                <label for="checkers">
+                    <div class="ham_b">
+                        <!--hamburger parent-->
+                        <div class="ham_b1"></div>
+                        <!--First bar of hamburger-->
+                        <div class="ham_b1"></div> <!-- Second bar of hamburger-->
+                        <div class="ham_b1"></div><!-- THird bar of hamburger-->
+
+                    </div>
+
+                </label>
+                <input type="checkbox" id="checkers" hidden>
+                <div class="slidebar">
+                    <div class="cross">
+                        <label for="checkers">
+                            <button>REMOVE</button>
+                        </label>
+
+                    </div>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="workexperience.html">EXPERIENCE</a></li>
+                        <li><a href="sitereport.html">REPORT</a></li>
+                    </ul>
                 </div>
+
+
+
             </div>
+
+
         </div>
+
     </div>
-    <nav>       <!--NAVBAR LIST To directly access page we want as listed---->
+    <nav>
+        <!--NAVBAR LIST To directly access page we want as listed---->
         <div class="container1">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="workexperience.html">EXPERIENCE</a></li>
                 <li><a href="sitereport.html">REPORT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+
             </ul>
         </div>
     </nav>
+
+
     <section class="contact">
         <div class="container1">
             <h1>GET IN TOUCH</h1>
             <form>
-                <input type="text" placeholder="First Name..."/>
-                <input type="text" placeholder="Last Name..."/>
-                <input type="number" placeholder="Phone No..."/>
-                <input type="email" placeholder="Email-Address"/>
-                <textarea type="text" placeholder="Address" class="address" ></textarea>
+                <input type="text" placeholder="First Name..." />
+                <input type="text" placeholder="Last Name..." />
+                <input type="number" placeholder="Phone No..." />
+                <input type="email" placeholder="Email-Address" />
+                <textarea type="text" placeholder="Address" class="address"></textarea>
                 <span><button>SUBMIT</button></span>
             </form>
         </div>
     </section>
     <footer>
         <div class="container1">
-            <div class="footer_parent">      <!-- Parent root of footer implementing flex  -->
-                <div class="footer_left">     <!--1st element of footerflex in left side-->
+            <div class="footer_parent">
+                <!-- Parent root of footer implementing flex  -->
+                <div class="footer_left">
+                    <!--1st element of footerflex in left side-->
                     <p>2023 Nishes Gurung.</p>
                     Email: <small>nishesgrg18@gmail.com</small>
                 </div>
-                <div class="footer_right">    <!--2nd element of footerflex in right side-->
+                <div class="footer_right">
+                    <!--2nd element of footerflex in right side-->
                     <small>
 
                         Legal Stuff &nbsp;|&nbsp;
@@ -70,8 +113,11 @@
             </div>
 
         </div>
+
     </footer>
 
 
+
 </body>
+
 </html>

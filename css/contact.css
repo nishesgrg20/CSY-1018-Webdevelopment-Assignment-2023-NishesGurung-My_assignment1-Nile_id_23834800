@@ -20,11 +20,16 @@ form span button:hover{background-color: black;color: white;transition: 0.7s;}
     background-color: white;
     margin: 4px 0px;}
 
+
     @media (max-width:950px){
         .ham_b{display: block;}
         .container1{width: auto;}
         form{grid-template-columns: auto;grid-template-rows: auto;width: auto;}
         form input{width: 350px;margin: auto;}
         form textarea{width: 350px;margin: auto;}
-        .contact{height: auto;}
+        .contact{height: auto;padding: 0px;}
     }
+
+    
+
+ 

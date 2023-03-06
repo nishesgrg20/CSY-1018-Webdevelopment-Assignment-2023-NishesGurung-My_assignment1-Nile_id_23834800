@@ -11,7 +11,7 @@
  
  /**********PORTFOLIO DETAIL CSS*************/
  .portfolio_details{width:auto;height:auto;background-color:#000000;padding:50px; color: white;}
- .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: 400px 310px;height:auto;}
+ .portfolio_parent{display:grid;grid-template-columns: 650px 550px;grid-template-rows: auto;height:auto;}
 
  .aboutme h1{padding: 10px 0px;font-weight: 800;;width: 525px;text-align: center;}
  .aboutme h1::before{ content: '';

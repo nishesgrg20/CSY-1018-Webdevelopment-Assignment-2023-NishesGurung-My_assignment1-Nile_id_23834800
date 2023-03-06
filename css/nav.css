@@ -66,13 +66,30 @@ nav .container1 ul li{display: inline-block;margin-left: 45px;}
 nav .container1 ul li a{color: aliceblue;background-color:rgba(0, 0, 0, 0.8) ;padding:0.5rem;border-radius: 0px 10px;transition: 0.7s;text-decoration: none;}
 nav .container1 ul li a:hover{background-color: aliceblue;color: rgba(0, 0, 0, 0.8) ;transition: 0.8s;}
 
+
+/* SLidebar code of hamburger */
+.slidebar{width: 500px;height: 15vh;background-color:black;display: none;opacity: 1;
+transform: translateX(-40px) translateY(-300px);}
+.slidebar .cross{width:auto;height:0px;margin: 20px 380px;}
+
+.slidebar .cross button{padding: 8px;border: none;border-radius: 10px;transition: 0.5s;}
+.slidebar .cross button:hover{background-color: red;transition: 0.5s;
+border: none;color: white;}
+.slidebar ul{width: auto;margin:65px 0px;}
+.slidebar ul li{display: inline-block;}
+.slidebar .cross .crosser_left{width: 7px;height: 3px;background-color: white;}
+.slidebar ul li a{font-size: 15px;color: white;text-decoration: none;padding-left: 3px;}
+.slidebar ul li a:hover{color: skyblue;}
+#checkers:checked ~ .slidebar{transform: translateX(-75px) translateY(-70px);transition: 1s;transition: 0.8s;}
 @media(max-width:950px){
+    .head_top{height: 50px;}
     .head_top .container1 .head_parent{grid-template-columns: 245px 80px}
     .head_parent .head_right{display: none;}
     .head_left h1{font-size: 20px;}
     .head_right h4{  font-size: 20px;
         width: 150px;}
     nav{display: none;}
+    .slidebar{display: block;}
   
 }
 @media screen and (min-width:550px) and (max-width:1300px){

@@ -6,17 +6,17 @@
 }
 
 
-.report_main{width: 100%;height:900px;background-image: url('../images/reportjp.jpg');background-repeat: no-repeat;
+.report_main{width: 100%;height:auto;background-image: url('../images/reportjp.jpg');background-repeat: no-repeat;
     background-attachment:fixed;background-color: #000000;background-position: -30px 0px;}     
     /* The images is taken from unsplash url:https://unsplash.com/photos/oga9Xg0KVnU */
 
 .report_main h1{padding: 25px 0px;color: white;}
 .report_main .box1{text-align: center;padding: 20px 0px;}
-.report_parent{display: grid;grid-template-columns: 900px;grid-template-rows: 760px;margin: auto;width: 900px;}
+.report_parent{display: grid;grid-template-columns: 900px;grid-template-rows:auto;margin: auto;width: 900px;}
 .report_body{border-radius: 30px;color: #06050A;padding: 40px 20px;margin: 20px 0px;
 background-repeat: no-repeat;color: white
 ;}
-.report_body p{line-height:30px;}
+.report_body p{line-height:40px;text-align: start;}
 
 .ham_b{display: none;width: 25px;
     margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
