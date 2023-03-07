@@ -28,7 +28,7 @@
  .here{font-size: 25px;font-weight:550;}
  .pdefine{padding: 20px 0px;}
  .myimage_bottomright{text-align: right;}
- .myimage_bottomright img{width: 400px;height: 300px;transition: 0.8s;border-radius:60px 0px;opacity: 0.2;transform: scale(0.8);}
+ .myimage_bottomright img{width: 400px;height: 300px;transition: 0.8s;border-radius:60px 0px;opacity: 0.6;transform: scale(0.8);}
  .myimage_bottomright img:hover{transform: scale(1);transition: 0.8s;opacity: 1.5;}
 .ham_b{display: none;width: 25px;
     margin:0px auto;background-color: #000000;height: 25px;padding: 8px;border-radius: 5px;}
@@ -64,5 +64,6 @@ transition: 0.9s;justify-content: space-evenly;}
     .myimage{text-align: center;}
     .myimage img{width: 350px;height: 200px;}
     .pdefine{padding:15px;}
+  
 }
 

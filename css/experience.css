@@ -63,7 +63,7 @@ width: 1150px;margin: auto;}
     }
 
     @media screen and (min-width:600px) and (max-width:1300px){
-        .head_top .container1 .head_parent{grid-template-columns: 600px 80px;}
+        .head_top .container1 .head_parent{grid-template-columns: 550px 80px;}
         .parent_skills{grid-template-columns: 200px 200px;
             grid-column-gap: 150px;width: 700px;margin: auto;}
     
