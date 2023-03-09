@@ -149,7 +149,7 @@ nav .container1 ul li a:hover {
     display: none;
     opacity: 1;
     transform: translateX(-40px) translateY(-300px);
-    transition: 0.8s;
+    transition: 0.2s;
     z-index: 1;
 }
 
@@ -210,8 +210,7 @@ nav .container1 ul li a:hover {
 
 #checkers:checked~.slidebar {
     transform: translateX(-75px) translateY(-70px);
-    transition: 1s;
-    transition: 0.9s;
+    transition: 0.1s;
 }
 
 
@@ -251,8 +250,7 @@ nav .container1 ul li a:hover {
 
     #checkers:checked~.slidebar {
         transform: translateX(-95px) translateY(-70px);
-        transition: 1s;
-        transition: 0.9s;
+        transition: 0.5s;
         padding: 5px 0px;
 
     }
