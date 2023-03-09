@@ -241,7 +241,7 @@ nav .container1 ul li a:hover {
     }
 
     .slidebar {
-        display: block;
+        display: none;
     }
 
     .slidebar ul li a {
@@ -249,9 +249,11 @@ nav .container1 ul li a:hover {
     }
 
     #checkers:checked~.slidebar {
-        transform: translateX(-95px) translateY(-70px);
+        display:block;
+        transform: translateX(-30px) translateY(-70px);
         transition: 0.5s;
         padding: 5px 0px;
+        width: 370px;
 
     }
 
@@ -259,7 +261,7 @@ nav .container1 ul li a:hover {
 }
 @media screen and (min-width:550px) and (max-width:1300px) {
     .head_top .container1 .head_parent {
-        grid-template-columns: 560px 80px;
+        grid-template-columns:auto;
     }
 
     #checkers:checked~.slidebar {
