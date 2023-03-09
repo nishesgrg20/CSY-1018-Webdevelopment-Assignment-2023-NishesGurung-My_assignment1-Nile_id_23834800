@@ -141,9 +141,8 @@ nav .container1 ul li a:hover {
 }
 
 
-/* SLidebar code of hamburger */
 .slidebar {
-    width: 500px;
+    width: auto;
     height: 15vh;
     background-color: black;
     display: none;
@@ -151,12 +150,13 @@ nav .container1 ul li a:hover {
     transform: translateX(-40px) translateY(-300px);
     transition: 0.2s;
     z-index: 1;
+    
 }
 
 .slidebar .cross {
     width: auto;
     height: 0px;
-    margin: 20px 380px;
+    margin: 20px 320px;
 }
 
 .slidebar .cross button {
@@ -174,8 +174,8 @@ nav .container1 ul li a:hover {
 }
 
 .slidebar ul {
-    width: 380px;
-    margin: 30px auto;
+    width: 375px;
+    margin: 30px 0px;
 }
 
 .slidebar ul li {
@@ -241,7 +241,7 @@ nav .container1 ul li a:hover {
     }
 
     .slidebar {
-        display: none;
+        display:block;
     }
 
     .slidebar ul li a {
@@ -251,11 +251,13 @@ nav .container1 ul li a:hover {
     #checkers:checked~.slidebar {
         display:block;
         transform: translateX(-30px) translateY(-70px);
-        transition: 0.5s;
+        transition: 0.2s;
         padding: 5px 0px;
-        width: 370px;
+        width: 375px;
 
     }
+    #checkers:checked~ .head_top{background-color: #06050A;}
+    
 
    
 }
@@ -263,13 +265,15 @@ nav .container1 ul li a:hover {
     .head_top .container1 .head_parent {
         grid-template-columns:auto;
     }
-
+    .head_top .container1 .head_parent {
+        grid-template-columns: 490px 80px;
+      }
+    #checkers:checked~.head_top{background-color: aqua;}
     #checkers:checked~.slidebar {
         transform: translateX(-30px) translateY(-70px);
-        transition: 1s;
-        transition: 0.9s;
+        transition: 0.4s;
         padding: 5px 0px;
-        width: 700px;
+        width: 667px;
         padding: 27px 0px;
     }
 
@@ -292,4 +296,16 @@ nav .container1 ul li a:hover {
 @media(min-width:700px){
     #checkers:checked ~ .slidebar{width: 810px;}
     .slidebar .cross{margin: 0px 570px;}
+}
+@media screen and (min-width:400px) and (max-width:500px){
+    #checkers:checked ~ .slidebar{
+        width: 428px;
+       
+    }
+}
+@media screen and (min-width:926px) {
+    #checkers:checked ~ .slidebar{
+        width:926px;
+       
+    }
 }
