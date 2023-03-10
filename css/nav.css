@@ -149,7 +149,7 @@ nav .container1 ul li a:hover {
 
 .slidebar {
     width: 375px;
-    height: 15vh;
+    height: 16vh;
     background-color: black;
     display: none;                  /* Here making invisible of slidebar and later on will be visibke in small width mainky in mobile device changing to block*/
     opacity: 1;
