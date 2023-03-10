@@ -25,7 +25,7 @@ width: 1150px;margin: auto;}
 .parent_skills .card1 {
     width: 330px;
     height: 330px;
-    box-shadow: 3px 5px #aaaaaa;    
+    box-shadow: 3px 5px #a89d9d;    
     border-radius: 120px 120px 2700px 2700px;    /* 50px top left,0px top right/ 50px bottom right,10px bottom left */
     background-color: #06050A;overflow: hidden;transition: 0.8s;
 }
