@@ -15,20 +15,14 @@ form span{margin-top: 12px;}
 form span button{padding: 10px 15px;background-color: green;border: none;color: white;border-radius:5px;transition: 0.7s;}
 form span button:hover{background-color: black;color: white;transition: 0.7s;}
 
-.ham_b{display: none;width: 25px;
-    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
- .ham_b .ham_b1{width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0px;}
 
-
+/* building responsive view for the width from 0px to 950px */
     @media (max-width:950px){
-        .ham_b{display: block;}
+       
         .container1{width: auto;}
         form{grid-template-columns: auto;grid-template-rows: auto;width: auto;}
-        form input{width: 350px;margin: auto;}
-        form textarea{width: 350px;margin: auto;}
+        form input{width: 300px;}
+        form textarea{width: 300px;}
         .contact{height: auto;padding: 0px;}
     }
 

@@ -47,16 +47,11 @@ width: 1150px;margin: auto;}
 .card1:hover .job_details{background-color: #06050A;transition: 0.8s;color: white;}
 .card1:hover h4{color: #06050A;transition: 0.8s;}
 
-.ham_b{display: none;width: 25px;
-    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
- .ham_b .ham_b1{width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0px;}
+
 
 
     @media (max-width:950px){
-        .ham_b{display: block;}
+       
         .card1{margin:10px auto;width: 300px;}
         .container1{width: auto;}
         .parent_skills{padding: 0px;grid-template-columns: auto;grid-template-rows: auto;width: auto;}

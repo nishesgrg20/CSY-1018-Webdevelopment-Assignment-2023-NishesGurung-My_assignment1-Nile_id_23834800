@@ -139,13 +139,19 @@ nav .container1 ul li a:hover {
     color: rgba(0, 0, 0, 0.8);
     transition: 0.8s;
 }
+.ham_b{display: none;width: 25px;
+    margin:0px auto;background-color: #06050A;height: 25px;padding: 8px;border-radius: 5px;}
+ .ham_b .ham_b1{width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0px;}
 
 
 .slidebar {
     width: 375px;
     height: 12.3vh;
     background-color: black;
-    display: none;
+    display: none;                  /* Here making invisible of slidebar and later on will be visibke in small width mainky in mobile device changing to block*/
     opacity: 1;
     transform: translateX(-40px) translateY(-300px);
     transition: 0.8s;
@@ -214,7 +220,7 @@ nav .container1 ul li a:hover {
     transition: 0.1s;
 }
 
-
+/* building responsive view for the width from 0px to 950px */
 @media(max-width:950px) {
     .head_top {
         height: 50px;
@@ -240,6 +246,7 @@ nav .container1 ul li a:hover {
     nav {
         display: none;
     }
+    .ham_b{display: block;}
 
     .slidebar {
         display:block;
@@ -262,6 +269,7 @@ nav .container1 ul li a:hover {
 
    
 }
+/* building responsive view for the width from 550px to 1300px */
 @media screen and (min-width:550px) and (max-width:1300px) {
     .head_top .container1 .head_parent {
         grid-template-columns:auto;
@@ -294,10 +302,13 @@ nav .container1 ul li a:hover {
     }
 }
 
+/* building responsive view for the width from 700px ++ related to hamburger after clicked*/
 @media(min-width:700px){
     #checkers:checked ~ .slidebar{width: 810px;}
     .slidebar .cross{margin: 0px 570px;}
 }
+
+/* building responsive view for the width from 400px to 549px related to hambirger after clicked ++ */
 @media screen and (min-width:400px) and (max-width:549px){
     #checkers:checked ~ .slidebar{
         width: 414px;height: 10.8vh;
