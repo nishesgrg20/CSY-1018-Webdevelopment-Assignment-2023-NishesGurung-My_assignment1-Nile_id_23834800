@@ -149,7 +149,7 @@ nav .container1 ul li a:hover {
 
 .slidebar {
     width: 375px;
-    height: 12.3vh;
+    height: 15vh;
     background-color: black;
     display: none;                  /* Here making invisible of slidebar and later on will be visibke in small width mainky in mobile device changing to block*/
     opacity: 1;
@@ -182,11 +182,11 @@ nav .container1 ul li a:hover {
 
 .slidebar ul {
     width: 375px;
-    margin: 30px 0px;
+    margin: 30px 0px;text-align: center;
 }
 
 .slidebar ul li {
-    display: inline-block;
+    display: inline-block;padding: 5px;
 }
 
 .slidebar .cross .crosser_left {
@@ -311,7 +311,7 @@ nav .container1 ul li a:hover {
 /* building responsive view for the width from 400px to 549px related to hambirger after clicked ++ */
 @media screen and (min-width:400px) and (max-width:549px){
     #checkers:checked ~ .slidebar{
-        width: 414px;height: 10.8vh;
+        width: 414px;height: 13.5vh;
        
     }
 }
