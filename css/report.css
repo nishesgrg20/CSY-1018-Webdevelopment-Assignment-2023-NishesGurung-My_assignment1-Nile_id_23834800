@@ -7,23 +7,31 @@
 
 
 .report_main{width: 100%;height:auto;background-image: url('../images/reportjp.jpg');background-repeat: no-repeat;
-    background-attachment:fixed;background-color: #000000;background-position: -30px 0px;}     
+    background-attachment:fixed;background-color: #000000;background-position: -30px 0px;color: white;}     
     /* The images is taken from unsplash url:https://unsplash.com/photos/oga9Xg0KVnU */
 
-.report_main h1{padding: 25px 0px;color: white;}
+.report_main h1{padding: 15px 0px;color: white;}
 .report_main .box1{text-align: center;padding: 20px 0px;}
 .report_parent{display: grid;grid-template-columns: 900px;grid-template-rows:auto;margin: auto;width: 900px;}
-.report_body{border-radius: 30px;color: #06050A;padding: 40px 20px;margin: 20px 0px;
+.report_body{border-radius: 30px;color: #06050A;padding: 5px 20px;margin: 20px 0px;
 background-repeat: no-repeat;color: white
 ;}
-.report_body p{line-height:40px;text-align: start;}
+.report_body p{line-height:40px;text-align: start;text-align: justify;}
 
-.wireframe{display: flex;width: 1000px;margin-left: 150px;}
+.wireframe{display: flex;width: 1000px;margin:20px auto;justify-content: space-evenly;}
 .wireframe div{margin: 9px;}
 .wireframe div img{width: 200px;height: 240px;border-radius: 20px;transition: 0.7s;}
 .wireframe div img:hover{transform: scale(1.1);transition:0.7s;}
 
-
+.wireframe_desc{color: white;}
+.wireframe h3{padding: 10px 0px;}
+.validation p{text-align: justify;width: 800px;margin: auto;}
+.valid_main{display: grid;grid-template-columns: 400px 500px;width: 1000px;margin: auto;padding: 15px 0px;grid-column-gap: 20px;}
+.valid_main .v_left{text-align: right;}
+.valid_main .v_left img{width: 330px;height: 200px;border-radius: 8px;}
+.valid_main .v_right h3{text-align: justify;}
+.reference_body{width: 900px;margin: auto;padding: 20px 0px;}
+.reference_body p{line-height: 35px;}
     @media (max-width:950px){
     
         .container1{width: auto;}
@@ -32,4 +40,9 @@ background-repeat: no-repeat;color: white
         .report_body p{font-size: 15px;line-height: 25px;}
         .report_main{height: auto;background-position:-325px -100px ;}
         .wireframe{flex-direction: column;width: auto;margin-left: 0px ;}
+        .valid_main{grid-template-columns: auto;width: auto;}
+        .valid_main .v_left{text-align: center;}
+        .valid_main .v_right{padding: 15px;}
+        .refrence .reference_body{width: auto;}
+        .footer_parent .footer_left{padding: 0px 10px;}
     }

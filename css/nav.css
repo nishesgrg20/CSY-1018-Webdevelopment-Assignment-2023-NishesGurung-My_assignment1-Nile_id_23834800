@@ -144,7 +144,7 @@ nav .container1 ul li a:hover {
  .ham_b .ham_b1{width: 25px;
     height: 3px;
     background-color: white;
-    margin: 4px 0px;}
+    margin: 4px 0px;display:block;}
 
 
 .slidebar {
