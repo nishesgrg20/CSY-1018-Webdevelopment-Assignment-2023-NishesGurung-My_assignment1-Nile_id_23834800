@@ -18,7 +18,10 @@ background-repeat: no-repeat;color: white
 ;}
 .report_body p{line-height:40px;text-align: start;}
 
-
+.wireframe{display: flex;width: 1000px;margin-left: 150px;}
+.wireframe div{margin: 9px;}
+.wireframe div img{width: 200px;height: 240px;border-radius: 20px;transition: 0.7s;}
+.wireframe div img:hover{transform: scale(1.1);transition:0.7s;}
 
 
     @media (max-width:950px){
@@ -28,4 +31,5 @@ background-repeat: no-repeat;color: white
         .report_body{margin: 0px;}
         .report_body p{font-size: 15px;line-height: 25px;}
         .report_main{height: auto;background-position:-325px -100px ;}
+        .wireframe{flex-direction: column;width: auto;margin-left: 0px ;}
     }
