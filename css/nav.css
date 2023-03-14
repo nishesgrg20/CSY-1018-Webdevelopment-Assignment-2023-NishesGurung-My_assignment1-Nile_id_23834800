@@ -6,7 +6,7 @@
 /***************************************************************************/
 body {
 
-    background-color:black;
+    background-color:#060201;
     font-family:sans-serif;
 }
 
@@ -20,8 +20,8 @@ body {
 
 .head_top .head_parent {
     display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 40px;
+    grid-template-columns: 600px 600px;                 /* The coloum in divided into two ,first coloumn 600px,second column 600px */
+    grid-template-rows: 40px;  /* the row here divide into one row*/
 }
 
 .head_left img {
@@ -76,7 +76,7 @@ body {
     background-color: white;
     color: black;
     padding: 1.9rem;
-    /* box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.7); */
+    
 }
 
 .head_parent h2 {
@@ -109,7 +109,7 @@ body {
 }
 
 nav {
-    background-color: #06050A;
+    background-color: #060201;
     width: 100%;
 
 }
@@ -277,7 +277,7 @@ nav .container1 ul li a:hover {
     .head_top .container1 .head_parent {
         grid-template-columns: 490px 80px;
       }
-    #checkers:checked~.head_top{background-color: aqua;}
+      /* if element of id checkers is checked than related to it class .slidebar properties will convert to it as given below*/
     #checkers:checked~.slidebar {
         transform: translateX(-30px) translateY(-70px);
         transition: 0.4s;
@@ -315,6 +315,7 @@ nav .container1 ul li a:hover {
        
     }
 }
+/* responsive start from width 926px minimum */
 @media screen and (min-width:926px) {
     #checkers:checked ~ .slidebar{
         width:926px;

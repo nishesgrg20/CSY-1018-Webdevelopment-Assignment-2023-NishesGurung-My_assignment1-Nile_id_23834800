@@ -40,6 +40,7 @@ grid-row-gap: 30px;grid-column-gap: 20px;margin-top: 20px;}
 
 .music img{width: 390px; height: 280px;border-radius: 50px;}
 .zoom img{transition: 1s;opacity: 0.3;}
+/* when img of class zoom is hover the image will zoom in + time of 1s + the opacity will increase in here */
 .zoom:hover img {transform: scale(1.2);transition: 1s;opacity: 1;}
 
 /**********************/
