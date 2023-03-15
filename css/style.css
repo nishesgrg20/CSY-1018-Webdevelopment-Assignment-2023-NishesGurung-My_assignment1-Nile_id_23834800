@@ -1,5 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
-*{padding: 0px;margin: 0px;}
 .portfolio {
     background-color: #000000;
 }
@@ -25,7 +28,8 @@
 }
 
 .right_column .right_box1 {
-    margin: 180px 0px;                  /* margin leaves 180px right-left, 0px top-botom */
+    margin: 180px 0px;
+    /* margin leaves 180px right-left, 0px top-botom */
     text-align: center;
     color: white;
 }
@@ -34,6 +38,7 @@
     padding: 20px 0px;
     line-height: 30px;
 }
+
 /* The class index_title whose before element will be added on which is a content, according animation keyframe which is provided down here */
 .index_title::before {
     content: '';
