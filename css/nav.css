@@ -11,7 +11,7 @@ body {
 }
 
 .container1 {
-    width: 1200px;
+    width:75rem;
     margin: auto;
     text-align: center;
 }
@@ -20,7 +20,7 @@ body {
 
 .head_top .head_parent {
     display: grid;
-    grid-template-columns: 600px 600px;                 /* The coloum in divided into two ,first coloumn 600px,second column 600px */
+    grid-template-columns: 37rem 37rem;                 /* The coloum in divided into two ,first coloumn 600px,second column 600px */
     grid-template-rows: 40px;  /* the row here divide into one row*/
 }
 

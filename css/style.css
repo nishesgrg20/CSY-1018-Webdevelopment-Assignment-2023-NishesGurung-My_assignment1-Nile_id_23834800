@@ -10,9 +10,9 @@
 
 .container3_row {
     display: grid;
-    grid-template-columns: 600px 500px;
+    grid-template-columns: 38rem 501px;
     grid-template-rows: auto;
-    width: 1200px;
+    width: 75rem;
     margin: auto;
     background-color: #000000;
     background-image: url('../images/index.jpg');
@@ -125,7 +125,7 @@
 }
 
 .left_column .left_box1 img:hover {
-    border-radius: 300px;
+    border-radius: 200rem;
     transition: 1s;
     transform: scale(1.1);
 }
@@ -174,7 +174,7 @@
     }
 
     .left_column .left_box1 {
-        margin: 10px 0px;
+        margin: 1rem 0px;
         text-align: center;
         width: auto;
     }

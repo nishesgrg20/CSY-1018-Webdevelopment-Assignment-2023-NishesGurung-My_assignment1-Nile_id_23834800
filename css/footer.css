@@ -2,5 +2,5 @@
 
 /******** FOOTER SKILLS *************/
 footer{background-color: #06050A ;color: white;padding:63px;height: auto;}
-.footer_parent{display: flex;justify-content: space-between;}
+.footer_parent_maincomponent{display: flex;justify-content: space-between;}
 /**********************************************/
