@@ -215,10 +215,6 @@ nav .container1 ul li a:hover {
     color: white;
 }
 
-#checkers:checked~.slidebar {
-    transform: translateX(-75px) translateY(-70px);
-    transition: 0.1s;
-}
 
 /* building responsive view for the width from 0px to 950px */
 @media(max-width:950px) {
@@ -255,7 +251,8 @@ nav .container1 ul li a:hover {
     .slidebar ul li a {
         font-size: 12px;
     }
-
+/* AFter the textbox get checked the slidebar component position is translate(-30px) means go to 30px left side translateY(-70px) to
+70px up from the default position */
     #checkers:checked~.slidebar {
         display:block;
         transform: translateX(-30px) translateY(-70px);
